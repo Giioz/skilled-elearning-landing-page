@@ -26,17 +26,37 @@ export default {
         },
       },
       '.btn-secondary': {
-        backgroundColor: '#6B7280',
+        background: 'linear-gradient(180deg, rgba(255, 111, 72, 1) 0%, rgba(240, 42, 166, 1) 100%)',
         color: '#FFFFFF',
-        padding: '0.5rem 1rem',
-        borderRadius: '0.25rem',
+        fontSize: '18px',
+        with: '167px',
+        height: '56px',
+        fontWeight: 'bold',
+        padding: '16px 33px',
+        borderRadius: '31.5px',
         '&:hover': {
           backgroundColor: '#4B5563',
         },
       },
     }
 
+    const wrapper = {
+      '.wrapper': {
+        marginInline: '16px'
+      },
+      '.wrapper-md': {
+        marginInline: '40px'
+      }
+    }
+    const fonts = {
+      '.font-heading': {
+        fontFamily: "'Plus Jakarta Sans', sans-serif"
+      }
+    }
+
       addComponents(buttons)
+      addComponents(wrapper)
+      addComponents(fonts)
     } 
   ],
 }
