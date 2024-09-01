@@ -2,7 +2,7 @@ export const About = () => {
   return (
     <div className="wrapper mt-[38px] md:wrapper-md">
       <div className="w-auto">
-        <h1 className="text-[#13183F] text-[56px] leading-[51px] font-heading w-full font-bold md:text-[red]">
+        <h1 className="text-[#13183F] text-[56px] leading-[51px] font-heading w-full font-bold">
           Maximize skill,
           <br />
           minimize budget
@@ -15,7 +15,7 @@ export const About = () => {
           Get Started
         </button>
       </div>
-      <div>
+      <div className="w-[20.5rem] h-[18.8]">
         <img
           className="w-full h-full mt-[46px]"
           src="../../public/img1.png"
