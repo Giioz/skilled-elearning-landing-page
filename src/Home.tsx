@@ -1,13 +1,10 @@
-import About from "./components/About"
-import Header from "./components/Header"
-
+import { Header, About } from "./components";
 
 export const Home = () => {
   return (
     <>
-        <Header />
-        <About />
+      <Header />
+      <About />
     </>
-  )
-}
-
+  );
+};
