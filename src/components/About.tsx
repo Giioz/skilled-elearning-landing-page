@@ -21,7 +21,11 @@ export const About = () => {
           src="../../public/img1.png"
           alt="about img"
         />
-        <img className="w-[full] h-[full] hidden  absolute top-[-100px] right-[-335px] z-[-1] md:block lg:top-[-160px]" src="../../public/img2.png" alt="" />
+        <img
+          className="w-[full] h-[full] hidden  absolute top-[-100px] right-[-335px] z-[-1] md:block lg:top-[-160px]"
+          src="../../public/img2.png"
+          alt=""
+        />
       </div>
     </div>
   );

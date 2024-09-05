@@ -34,8 +34,6 @@ export default {
           "&:hover": {
             backgroundColor: "#4B5563",
           },
-
-          
         },
         ".btn-last": {
           background:
@@ -50,8 +48,6 @@ export default {
           "&:hover": {
             backgroundColor: "#4B5563",
           },
-
-          
         },
       };
 
@@ -64,7 +60,6 @@ export default {
         },
         ".wrapper-lg": {
           marginInline: "165px",
-
         },
         ".customlinear": {
           background:
