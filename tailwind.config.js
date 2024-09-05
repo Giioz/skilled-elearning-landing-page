@@ -62,6 +62,10 @@ export default {
         ".wrapper-md": {
           marginInline: "40px",
         },
+        ".wrapper-lg": {
+          marginInline: "165px",
+
+        },
         ".customlinear": {
           background:
             "linear-gradient(180deg, rgba(255, 111, 72, 1) 0%, rgba(240, 42, 166, 1) 100%)",
