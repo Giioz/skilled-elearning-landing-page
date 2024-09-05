@@ -1,8 +1,8 @@
 export const About = () => {
   return (
-    <div className="wrapper mt-[38px] md:wrapper-md">
-      <div className="w-auto">
-        <h1 className="text-[#13183F] text-[56px] leading-[51px] font-heading w-full font-bold">
+    <div className="wrapper mt-[38px] grid grid-cols-1 md:grid-cols-2 items-center md:wrapper-md">
+      <div className="w-auto md:translate-y-[-60px]">
+        <h1 className="text-[#13183F] text-[40px] leading-[51px] font-heading w-full font-bold ">
           Maximize skill,
           <br />
           minimize budget
@@ -15,12 +15,13 @@ export const About = () => {
           Get Started
         </button>
       </div>
-      <div className="w-[20.5rem] h-[18.8]">
+      <div className="w-full h-auto flex justify-center md:w-[640px] md:h-[640px] ">
         <img
-          className="w-full h-full mt-[46px]"
+          className="mt-[46px] md:hidden"
           src="../../public/img1.png"
           alt="about img"
         />
+        <img className="w-[full] h-[full] hidden  absolute top-[-100px] right-[-335px] z-[-1] md:block" src="../../public/img2.png" alt="" />
       </div>
     </div>
   );
