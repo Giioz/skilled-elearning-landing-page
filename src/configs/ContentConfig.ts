@@ -1,4 +1,4 @@
-type IContent = {
+export type IContent = {
     id : number,
     img : string,
     title : string,
