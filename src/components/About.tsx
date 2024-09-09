@@ -18,12 +18,12 @@ export const About = () => {
       <div className="w-full h-auto flex justify-center md:w-[640px] md:h-[640px] ">
         <img
           className="mt-[46px] md:hidden"
-          src="../../public/img1.png"
+          src="public/img1.png"
           alt="about img"
         />
         <img
           className="w-[full] h-[full] hidden  absolute top-[-100px] right-[-335px] z-[-1] md:block lg:top-[-160px]"
-          src="../../public/img2.png"
+          src="public/img2.png"
           alt=""
         />
       </div>

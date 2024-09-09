@@ -12,7 +12,7 @@ export const Content = () => {
         {ContentConfig.map((item) => {
           return (
             <div className="pt-[24px]">
-              <div className="w-[21.4rem] h-[16.1rem] bg-white rounded-[10px] pl-[28px]">
+              <div className="max-w-[21.4rem] h-[16.1rem] bg-white rounded-[10px] pl-[28px]">
                 <div className="w-[3.5rem] h-[3.5rem] customlinear rounded-full flex justify-center items-center translate-y-[-50%]">
                   <img className="w-[22px] h-[24px]" src={item.img} alt="" />
                 </div>
