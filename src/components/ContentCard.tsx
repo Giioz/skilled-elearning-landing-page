@@ -9,7 +9,7 @@ export const ContentCard: React.FC<Props> = ({ item }) => {
     <div className="pt-[24px] grid">
       <div className="max-w-[21.4rem] min-h-[16.1rem] px-2 bg-white rounded-[10px] pl-[28px]">
         <div className="max-w-[3.5rem] h-[3.5rem] customlinear rounded-full flex justify-center items-center translate-y-[-50%]">
-          <img className="max-w-[22px] h-[24px]" src={item.img} alt="" />
+          <img className="w-[22px] h-[22px]" src={item.img} alt="" />
         </div>
         <div className="font-heading">
           <p className="text-[20px] text-[#13183F] font-bold">{item.title}</p>
