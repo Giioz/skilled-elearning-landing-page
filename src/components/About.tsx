@@ -16,7 +16,7 @@ export const About = () => {
             Get Started
           </button>
         </div>
-        <div className="w-[640px] h-auto flex justify-center md:w-[640px] md:h-[640px] ">
+        <div className="max-w-[640px] h-auto flex justify-center md:w-[640px] md:h-[640px] ">
           <img
             className=" mt-[46px] md:hidden"
             src="./img1.png"
